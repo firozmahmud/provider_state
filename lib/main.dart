@@ -5,12 +5,12 @@ import 'package:provider_state/data_class/day.dart';
 import 'package:provider_state/data_class/month.dart';
 import 'package:provider_state/home/home_screen.dart';
 
-/// This is the entry point of our provider state management flutter app
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
+
   Provider.debugCheckInvalidValueType = null;
   runApp(
     MultiProvider(

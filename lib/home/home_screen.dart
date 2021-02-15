@@ -5,7 +5,6 @@ import 'package:provider_state/data_class/month.dart';
 import 'package:provider_state/day/day_screen.dart';
 import 'package:provider_state/month/month_screen.dart';
 
-/// This is the home screen of our app
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
